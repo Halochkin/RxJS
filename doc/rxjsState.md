@@ -149,11 +149,9 @@ Another way to handle resources is to buffer or cache a particular subset of ite
 
 Explicit timing events are a useful property in computing, because it means that you can exercise some control over when a piece of code is executed instead of relying on the implied timing of operations in the _sequence_. The latter is unreliable for any type of precise timing because it relates to the speed and availability of processors, memory, and network latency. In practice, this means that the behavior of the application on the desktop will be very different from that of the smartphone, so explicitly defined behavior is sometimes necessary. You can use explicit timing to sequentially invoke timed tasks, such as hiding and showing messages to the user after a specified number of seconds, displaying a notification dialog that directs the user to the next step, implementing a countdown clock indicating that an action must be completed by a certain time, and others. 
 
- ## And what kind of rapport data do rxjs provide
- 
-
- 
  
  ## Reference
  
  * [Basic Conditional Statements Handling – RxJS](https://jslearn.in/basic-conditional-statements-handling-rxjs/) 
+ 
+ 
