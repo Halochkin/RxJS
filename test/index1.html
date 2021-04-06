@@ -1,0 +1,16 @@
+<button type="button" id="btn">press me</button>
+
+<script type="module">
+
+
+  if (canDeactivate) {
+    return canDeactivate;
+  } else {
+    return window.confirm("message");
+  }
+
+
+  const squareOdd = of(1, 2, 3, 4, 5).pipe(
+    switchMap((canDeactivate) => Observable.of(canDeactivate || window.confirm("message"))
+    ))
+</script>

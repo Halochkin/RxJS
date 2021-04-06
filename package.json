@@ -1,0 +1,8 @@
+{
+  "name": "RxJS",
+  "version": "1.0.0",
+  "dependencies": {
+    "rxjs": "^6.6.7"
+  }
+
+}
