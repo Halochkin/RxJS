@@ -45,9 +45,10 @@ test.pipe(
 )
   .subscribe(val => console.log("even number :" + val))
 
-
-  
- 
+/* 
+even number : 8
+even number : 24
+*/
 ```
  
 #### 2. iif()
