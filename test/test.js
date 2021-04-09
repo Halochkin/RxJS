@@ -1,11 +1,9 @@
-let value = 0;
-
-const test = from([1, 2, 3, 4, 4, 3, 12, 9, 13])
-
-test.pipe(
-  map(x => value = x), // Assign the current variable to value
-  map(x => x % 2 === 0),  // check condition returns true or false
-  filter(x => x == true),  // we filter data which allows the data further only if true
-  map(x => value) // Output the value stored in value
-)
-  .subscribe(val => console.log(val));
+const myArray = new Array();
+// Enabling the counter labeled Initialize myArray.
+console.time("Initialize myArray");
+myArray[0] = myArray[1] = 1;
+for (i = 2; i < 10; i++) {
+  myArray[i] = myArray[i - 1] + myArray[i - 2];
+}
+// Switching off the counter labeled Initialize myArray.
+console.timeEnd("Initialize myArray");
